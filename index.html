@@ -7,12 +7,14 @@
   <p>Wait, no you can't...</p>
 
   <script type="text/javascript">
-    var client = new XMLHttpRequest();
-    client.open('GET', '/ASCII_art.txt');
-    client.onreadystatechange = function() {
-      alert(client.responseText);
-    }
-    client.send();
+<!--
+function popitup(url) {
+	newwindow=window.open(url,'/tmp','height=1000,width=500');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+
+// -->
   </script>
   
 </body>
