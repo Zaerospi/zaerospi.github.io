@@ -7,15 +7,10 @@
   <p>Wait, no you can't...</p>
 
   <script type="text/javascript">
-    $.ajax({
-      type: 'GET',
-      url: '/ASCII_art',
-      success: function (file_html) {
-          // success
-          alert('success : ' + file_html);
-    }
+$.get('/folder/file.bla', function(data) {
+  var fileContents = data;
 });
-    alert("");
+    alert("Hello");
   </script>
   
 </body>
