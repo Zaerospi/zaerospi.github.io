@@ -7,6 +7,14 @@
   <p>Wait, no you can't...</p>
 
   <script type="text/javascript">
+    $.ajax({
+      type: 'GET',
+      url: '/ASCII_art',
+      success: function (file_html) {
+          // success
+          //alert('success : ' + file_html);
+    }
+});
     alert("");
   </script>
   
