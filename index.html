@@ -7,10 +7,12 @@
   <p>Wait, no you can't...</p>
 
   <script type="text/javascript">
-    $.get('/ASCII_art.txt', function(data) {
-      alert(data);
-    });
-    alert("Hello");
+    var client = new XMLHttpRequest();
+    client.open('GET', '/foo.txt');
+    client.onreadystatechange = function() {
+      alert(client.responseText);
+    }
+    client.send();
   </script>
   
 </body>
