@@ -1,14 +1,90 @@
 @import url(http://fonts.googleapis.com/css?family=Gudea);
 
-body {
+* {
 	font-family: Gudea, sans-serif;
-	font-size: 16px;
-	color: #111;
-    background-color: #eee;
-    margin-left: 500px;
-    width: 800px;
+	//border: 1px dashed red;
 }
 
-p {
-  text-align: left;
+body {
+	background-color: #eee;
+}
+
+#top {
+	padding: 8px 12px 8px 12px;
+	background-color: rgb(10, 118, 181);
+	font-size: 2em;
+	color: white;
+}
+
+#intro {
+	margin: auto;
+	width: 700px;
+	font-size:1.20em;
+	color: #444;
+}
+
+#modlist {
+	width: 700px;
+	margin: auto;
+}
+
+.description {
+
+}
+
+.description h1 {
+	color: white;
+	font-size: 1.75em;
+	background-color: rgb(28, 146, 212);
+	padding: 2px 4px 2px 4px;
+}
+
+.description p {
+	color: #444;
+	font-size: 1.15em;
+}
+
+a {
+	color: rgb(28, 146, 212);
+}
+
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.boxes {
+	width: 400px;
+	height: 150px;
+	margin: 10px 150px 10px 150px;
+}
+
+.box {
+	margin: 0px;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	border-radius: 25px;
+	color: white;
+}
+
+.one {
+	float: left;
+	background-color: #f81;
+	border: 5px solid #fa3;
+}
+
+.two {
+	float: right;
+	background-color: #0c0;
+	border: 5px solid #7e7;
 }
