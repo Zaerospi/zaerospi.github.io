@@ -28,6 +28,7 @@ body {
 	box-shadow: 5px 5px 3px #aaa;
 	padding: 5px;
 	padding-top: 15px;
+	margin-top: -15px;
 }
 
 #modlist {
@@ -78,16 +79,16 @@ a:visited {
 }
 
 .boxes {
-	width: 400px;
-	height: 150px;
-	margin: 10px 150px 10px 150px;
-	padding: 0px 0px 10px 0px;
+	width: 350px;
+	height: 125px;
+	margin: 0px 175px 0px 175px;
+	padding: 0px 0px 20px 0px;
 }
 
 .box {
 	margin: 0px;
-	width: 150px;
-	height: 150px;
+	width: 125px;
+	height: 125px;
 	display: inline-block;
 	border-radius: 25px;
 	color: white;
