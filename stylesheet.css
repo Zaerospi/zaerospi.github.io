@@ -96,9 +96,11 @@ a:visited {
 .one {
 	float: left;
 	background-color: #f81;
+	border: 5px solid #fa5;
 }
 
 .two {
 	float: right;
 	background-color: #0c0;
+	border: 5px solid #3e3;
 }
