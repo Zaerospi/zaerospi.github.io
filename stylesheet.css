@@ -2,7 +2,6 @@
 
 * {
 	font-family: Gudea, sans-serif;
-	//border: 1px dashed red;
 }
 
 body {
@@ -11,21 +10,35 @@ body {
 
 #top {
 	padding: 8px 12px 8px 12px;
+	position: relative;
+	margin-left: -100;
+	align: auto;
 	background-color: rgb(10, 118, 181);
 	font-size: 2em;
 	color: white;
+	box-shadow: 5px 5px 20px #bbb;
 }
 
 #intro {
 	margin: auto;
 	width: 700px;
-	font-size:1.20em;
+	font-size:1.15em;
 	color: #444;
+	background-color: white;
+	box-shadow: 5px 5px 3px #aaa;
+	padding: 5px;
+	padding-top: 15px;
 }
 
 #modlist {
 	width: 700px;
 	margin: auto;
+}
+
+.mod {
+	background-color: white;
+	border-radius: 0px 0px 25px 25px;
+	box-shadow: 5px 5px 3px #aaa;
 }
 
 .description {
@@ -37,11 +50,13 @@ body {
 	font-size: 1.75em;
 	background-color: rgb(28, 146, 212);
 	padding: 2px 4px 2px 4px;
+	box-shadow: 0px 3px 5px #bbb;
 }
 
 .description p {
 	color: #444;
-	font-size: 1.15em;
+	font-size: 1.05em;
+	padding: 0px 10px 0px 10px;
 }
 
 a {
@@ -66,6 +81,7 @@ a:visited {
 	width: 400px;
 	height: 150px;
 	margin: 10px 150px 10px 150px;
+	padding: 0px 0px 10px 0px;
 }
 
 .box {
@@ -80,11 +96,9 @@ a:visited {
 .one {
 	float: left;
 	background-color: #f81;
-	border: 5px solid #fa3;
 }
 
 .two {
 	float: right;
 	background-color: #0c0;
-	border: 5px solid #7e7;
 }
