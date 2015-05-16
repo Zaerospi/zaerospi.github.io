@@ -2,6 +2,7 @@
 
 * {
 	font-family: Gudea, sans-serif;
+	//border: 1px dashed red;
 }
 
 body {
@@ -80,28 +81,37 @@ a:visited {
 
 .boxes {
 	width: 350px;
-	height: 125px;
+	height: 60px;
 	margin: 0px 175px 0px 175px;
-	padding: 0px 0px 20px 0px;
+	padding: 0px 0px 10px 0px;
 }
 
 .box {
 	margin: 0px;
-	width: 125px;
-	height: 125px;
+	width: 140px;
+	height: 45px;
 	display: inline-block;
-	border-radius: 25px;
+	border-radius: 15px;
 	color: white;
+	padding: 5px 0px 0px 10px;
 }
 
-.one {
+a .one {
 	float: left;
-	background-color: #f81;
-	border: 5px solid #fa5;
+	background: linear-gradient(#fa5, #f81);
+	border: 2px solid #fb7;
 }
 
-.two {
+a:hover .one {
+	background: #fb3;
+}
+
+a .two {
 	float: right;
-	background-color: #0c0;
-	border: 5px solid #3e3;
+	background: linear-gradient(#4e4, #0c0);
+	border: 2px solid #8e8;
+}
+
+a:hover .two {
+	background: #8e8;
 }
