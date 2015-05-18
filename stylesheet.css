@@ -9,7 +9,7 @@ body {
 	background-color: #eee;
 }
 
-#top {
+#header {
 	padding: 8px 12px 8px 12px;
 	position: relative;
 	margin-left: -100;
@@ -20,16 +20,18 @@ body {
 	box-shadow: 5px 5px 20px #bbb;
 }
 
-#intro {
+#synopsis {
 	margin: auto;
 	width: 700px;
 	font-size:1.15em;
 	color: #444;
 	background-color: white;
 	box-shadow: 5px 5px 3px #aaa;
-	padding: 5px;
-	padding-top: 15px;
 	margin-top: -15px;
+}
+
+#synopsis p {
+	padding: 10px;
 }
 
 #modlist {
